@@ -1,0 +1,30 @@
+QMessageBox{
+    background-color: #FC4C02;
+}
+
+QMessageBox QLabel{
+    color: black;
+    background-color: #FC4C02;
+    font-weight: bold;
+    padding: 16px 6px 0px 6px;
+    font-size: 18pt;
+}
+
+
+QMessageBox QPushButton{
+        color: black;
+        border: 2px solid black;
+	border-radius: 5px;
+  	text-decoration: none;
+	padding: 6px 16px 6px 16px;
+        background-color: #FC4C02;
+        font-weight: bold;
+}
+
+QMessageBox QPushButton:hover{
+	color: #D0D9F6;
+}
+
+QMessageBox QPushButton:focus{
+	outline: none;
+}

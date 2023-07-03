@@ -1,0 +1,13 @@
+QToolButton{
+        color: black;
+        border: 0px solid;
+        background-color: #FC4C02;
+	border-radius: 5px;
+  	text-decoration: none;
+	padding: 6px 16px 6px 16px;
+}
+
+QToolButton:hover{
+        background-color: #FC4C02;
+	color: #D0D9F6;
+}

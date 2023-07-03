@@ -1,0 +1,4 @@
+#mainFrame{
+        border: 2px solid #98A1B7;
+	border-radius: 5px;
+}

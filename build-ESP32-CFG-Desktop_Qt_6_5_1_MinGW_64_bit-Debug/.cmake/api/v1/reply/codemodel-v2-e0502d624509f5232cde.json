@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-e39361fd580b23e19637.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ESP32-CFG",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ESP32-CFG::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ESP32-CFG-Debug-4a6c0de920fc6a0fda4e.json",
+					"name" : "ESP32-CFG",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ESP32-CFG_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ESP32-CFG_autogen-Debug-5fdb13973a96c2eba2e6.json",
+					"name" : "ESP32-CFG_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ESP32-CFG_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ESP32-CFG_autogen_timestamp_deps-Debug-a404c83c890cea9ff954.json",
+					"name" : "ESP32-CFG_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Debug",
+		"source" : "C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
