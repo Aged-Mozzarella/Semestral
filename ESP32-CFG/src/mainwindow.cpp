@@ -38,6 +38,7 @@ MainWindow::MainWindow(QWidget *parent)
     connect(&SerialPort::getInstance(), &SerialPort::connectionEnded, this, [=](){
         SerialPort::showAlert("Disconnected", "Disconnected from ESP32-DIS.", ":/icons/buttons/about.png");
         ui->disconnectButton->hide();
+        configInProgress = false;
         showPrevMenu();
     });
 
@@ -281,9 +282,9 @@ void MainWindow::handleIncomingSerial(){
         }
         if(raw_data == CONFIG_RECEIVED){
             qDebug() << "QD: Configuration received\n";
-            //sendModeCommand(CMD_SAVE, 1);
+            sendModeCommand(CMD_SAVE, 1);
         }
-        if(raw_data == CONFIG_SAVE){
+        if(raw_data == CONFIG_SAVED){
             SerialPort::showAlert("Saved", "Successuflly updated the configuration.", ":/icons/buttons/about.png");
             qDebug() << "QD: Configuration saved\n";
             configInProgress = false;
@@ -298,6 +299,10 @@ void MainWindow::handleIncomingSerial(){
         }
         if(raw_data == CONFIG_BAD_CONTENT){
             SerialPort::showAlert("Bad Content", "Bad content.");
+            configInProgress = false;
+        }
+        if(raw_data == CONFIG_TIMEOUT){
+            SerialPort::showAlert("Timeout", "Save confirmation timed out.");
             configInProgress = false;
         }
     }

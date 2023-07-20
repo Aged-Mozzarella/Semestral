@@ -24,11 +24,13 @@ Configure::Configure(QWidget *parent) :
         if(confirm){
             ui->noButton->hide();
             confirm = false;
+            ui->uploadButton->setText("Upload Configuration");
             beginConfig();
         }else{
             if(checkInputs()){
                 confirm = true;
                 ui->noButton->show();
+                ui->uploadButton->setText("Yes");
                 parseInputs();
             }else{
                 SerialPort::showAlert("Invalid", "Invalid input, only ASCII characters accepted.");
@@ -38,6 +40,7 @@ Configure::Configure(QWidget *parent) :
 
     connect(ui->noButton, &QAbstractButton::clicked, this, [=](){
         confirm = false;
+        ui->uploadButton->setText("Upload Configuration");
         ui->noButton->hide();
     });
 
@@ -71,8 +74,12 @@ void Configure::styleText(){
 
 void Configure::styleButtons(){
     ui->uploadButton->setStyleSheet(StyleLoader::load(":/styles/connect/connect_button.qss"));
+    ui->uploadButton->setFixedWidth(256);
     QFont s = QFont(semiBold_weight, font_size_regular);
     ui->uploadButton->setFont(s);
+
+    ui->noButton->setStyleSheet(StyleLoader::load(":/styles/connect/connect_button.qss"));
+    ui->noButton->setFont(s);
 }
 
 void Configure::styleInputs(){

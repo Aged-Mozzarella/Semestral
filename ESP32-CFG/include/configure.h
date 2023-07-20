@@ -39,7 +39,7 @@ private:
 
     void beginConfig();
 
-    // Assumes arr is big enough to accept the contents of input
+    // Assumes arr is big enough to accept the contents of the input array
     void byteArrToChar(char * arr, const QByteArray & input);
 };
 

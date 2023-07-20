@@ -13,24 +13,104 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QLabel" name="testLabel">
-   <property name="geometry">
-    <rect>
-     <x>90</x>
-     <y>90</y>
-     <width>1041</width>
-     <height>421</height>
-    </rect>
+  <layout class="QVBoxLayout" name="mainAreaLayout">
+   <property name="spacing">
+    <number>16</number>
    </property>
-   <property name="font">
-    <font>
-     <pointsize>50</pointsize>
-    </font>
+   <property name="leftMargin">
+    <number>32</number>
    </property>
-   <property name="text">
-    <string>TESTING LABEL - ABOUT</string>
+   <property name="topMargin">
+    <number>32</number>
    </property>
-  </widget>
+   <property name="rightMargin">
+    <number>32</number>
+   </property>
+   <property name="bottomMargin">
+    <number>32</number>
+   </property>
+   <item>
+    <widget class="QLabel" name="titleLabel">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>48</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>64</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>About</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignBottom|Qt::AlignLeading|Qt::AlignLeft</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="subtitleLabel">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>48</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>98</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>A brief overview of the app</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="contentFrame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>12</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="aboutProjectLabel">
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The application &lt;span style=&quot; font-weight:700;&quot;&gt;ESP32-CFG&lt;/span&gt; serves as a simple configuration tool for the ESP32-DIS device – a system that neatly displays an array of data fetched from a REST API (such as the weather forecast, stoptimes for two bus lines of choice etc.) on an E-Paper display. Furthermore, it allows you to remotely control your desk light via a smart TP-Link power socket. &lt;/p&gt;&lt;p&gt;The initial version of ESP32-DIS featured an impractically rigid system of a series of hardcoded string literals containing the URLs and Wi-Fi login credentials which ensured the proper functionality of the device. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
  </widget>
  <resources/>
  <connections/>

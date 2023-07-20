@@ -32,13 +32,15 @@ const char * CONFIG_BEGIN = "*B*";
 // Configuration data received
 const char * CONFIG_RECEIVED = "*R*";
 // Configuration saved
-const char * CONFIG_SAVE = "*S*";
+const char * CONFIG_SAVED = "*S*";
 // Illegal save request
 const char * CONFIG_ILLEGAL = "*I*";
 // Bad header
 const char * CONFIG_BAD_HEADER = "*H*";
-// Bad contents
+// Bad content
 const char * CONFIG_BAD_CONTENT = "*X*";
+// Save confirmation timeout
+const char * CONFIG_TIMEOUT = "*T*";
 
 // Incoming config string header
 const char * CONFIG_HEADER = "*C*";

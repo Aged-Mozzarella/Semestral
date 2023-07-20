@@ -17,6 +17,9 @@ public:
 
 private:
     Ui::About *ui;
+
+    void styleText();
+
 };
 
 #endif // ABOUT_H
