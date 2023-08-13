@@ -6,6 +6,7 @@
 #include <QStringList>
 #include <QRegularExpression>
 
+// Contains the group of functions that is used to parse the data used in live feed mode
 namespace StringParser{
     // Parses a string containing live feed data into a string list
     QStringList parse_live_feed(const QString input);

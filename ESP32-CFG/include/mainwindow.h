@@ -74,8 +74,9 @@ private:
     void handleIncomingSerial();
 
 protected:
-    //Dragging with mouse
+    // Mouse clicked event handle
     void mousePressEvent(QMouseEvent * e);
+    // Mouse moved event handle
     void mouseMoveEvent(QMouseEvent * e);
 };
 #endif // MAINWINDOW_H

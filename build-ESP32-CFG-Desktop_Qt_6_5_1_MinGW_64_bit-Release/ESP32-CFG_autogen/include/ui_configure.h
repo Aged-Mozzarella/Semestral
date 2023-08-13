@@ -170,6 +170,8 @@ public:
 
         noButton = new QToolButton(ButtonArea);
         noButton->setObjectName("noButton");
+        noButton->setCursor(QCursor(Qt::PointingHandCursor));
+        noButton->setMouseTracking(true);
 
         buttonHorizontalLayout->addWidget(noButton);
 
@@ -177,6 +179,8 @@ public:
         uploadButton->setObjectName("uploadButton");
         uploadButton->setMinimumSize(QSize(0, 0));
         uploadButton->setMaximumSize(QSize(16777215, 16777215));
+        uploadButton->setCursor(QCursor(Qt::PointingHandCursor));
+        uploadButton->setMouseTracking(true);
 
         buttonHorizontalLayout->addWidget(uploadButton);
 

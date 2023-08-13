@@ -46,13 +46,19 @@ private:
     // Populates the weekly weather box with modifiable entries
     void populateWeeklyWeather();
 
+    // Fills all of the entries with dummy values
+    void fillDummyValues();
+
     // Sets up the styling for the main components
     void setupStyles();
 
-    // Styles individual groups of components
+    // Styles the frames of each section
     void styleFrames();
+    // Styles the thin separators
     void styleSeparators();
+    // Styles all of the text contained within QLabels
     void styleText();
+    // Sets font size to all non-standard QLabels
     void setFontSizes();
 
     // Returns stylesheet for a specific point size

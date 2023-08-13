@@ -28,9 +28,13 @@ public:
     // Initializes the SerialPort signal handles
     static void init(){ getInstance().Iinit(); }
 
+    // Attempts to open the serial port if not opened already
     static void openSerialPort(Settings & s){ getInstance().IopenSerialPort(s); }
+    // Attempts to close the serial port if not closed already
     static void closeSerialPort(){ getInstance().IcloseSerialPort(); }
+    // Writes data to the serial port if opened
     static void writeData(const QByteArray & data){ getInstance().IwriteData(data); }
+    // Reads buffered data from the serial port if opened
     static QByteArray readData(){ return getInstance().IreadData(); }
 
     // Displays an alert window

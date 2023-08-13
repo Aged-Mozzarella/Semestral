@@ -10,6 +10,8 @@ public:
     static StyleLoader & getInstance(){
         return loader;
     }
+
+    // Loads a QSS resource file into a string
     static QString load(const QString path);
 
 private:

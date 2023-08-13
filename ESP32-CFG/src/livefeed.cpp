@@ -17,19 +17,7 @@ LiveFeed::LiveFeed(QWidget *parent)
     populateStoptimes();
     populateWeeklyWeather();
     setupStyles();
-
-    //TEMP
-
-    Weather_t temp;
-    temp.weatherCode[0] = 0;
-    temp.date[0] = QString("01/01/2023");
-    temp.temperatureMax[0] = QString("10.0");
-    temp.temperatureMin[0] = QString("0.0");
-    temp.precipSum[0] = QString("0.0");
-
-    updateDailyWeather(temp);
-    updateWeeklyWeather(temp);
-
+    fillDummyValues();
 }
 
 LiveFeed::~LiveFeed(){
@@ -205,4 +193,41 @@ QString LiveFeed::getStyleForFontSize(const int fontSize){
     QString style = StyleLoader::load(":/styles/live_feed/live_feed_qlabel.qss");
     style.insert(style.indexOf('}') - 1, QString("font-size: %1px;\r").arg(fontSize));
     return style;
+}
+
+void LiveFeed::fillDummyValues(){
+    Stoptimes_t stoptimes_temp;
+    for(int i = 0; i < 5; i++){
+        stoptimes_temp.stoptime191[i] = QString("00:00");
+        stoptimes_temp.stoptime149[i] = QString("00:00");
+    }
+    updateStoptimes(stoptimes_temp);
+
+    Weather_t temp;
+    for(int i = 0; i < 7; i++){
+        temp.weatherCode [i] = 0;
+        temp.date[i] = QString("01/01/2023");
+        temp.temperatureMax[i] = QString("10.0");
+        temp.temperatureMin[i] = QString("0.0");
+        temp.precipSum[i] = QString("0.0");
+    }
+    updateDailyWeather(temp);
+    updateWeeklyWeather(temp);
+
+    TimeInfo_t time_temp;
+    time_temp.time = QString("23:59");
+    time_temp.date = QString("1/1/2023");
+    time_temp.day = QString("Monday");
+    updateTime(time_temp);
+
+    Room_t room_temp;
+    room_temp.temperature = QString("0.0");
+    room_temp.light = QString("OFF");
+    updateRoom(room_temp);
+
+    Wifi_t wifi_temp;
+    wifi_temp.RSSI = QString("0");
+    wifi_temp.SSID = QString("Generic Wi-Fi");
+    updateWiFi(wifi_temp);
+
 }

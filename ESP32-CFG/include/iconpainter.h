@@ -9,6 +9,7 @@ class IconPainter
 public:
     IconPainter();
 
+    // Loads an icon from file and returns it as a QPixmap in specified colour
     QPixmap getIconFromFile(const QColor color, const QString filename);
 private:
     // Overlays the alpha with the colour

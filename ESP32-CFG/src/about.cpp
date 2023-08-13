@@ -39,7 +39,7 @@ void About::styleText(){
 
 void About::addHrefs(){
     QString text = QString("<a href=\"whatever\" style=\"%1\">here [13 hyperlinks].</a>").arg(StyleLoader::load(":/styles/about/link.qss"));
-    qDebug() << text;
+    ui->legalLink->setFocusPolicy(Qt::NoFocus);
     ui->legalLink->setText(text);
     ui->legalLink->setTextInteractionFlags(Qt::TextBrowserInteraction);
     connect(ui->legalLink, &QLabel::linkActivated, this, [=](){

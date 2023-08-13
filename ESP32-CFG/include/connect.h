@@ -23,12 +23,14 @@ private:
     Ui::Connect *ui;
     QVector<QStringList> portInfo;
 
-    // Applies the CSS styling to all the text
+    // Applies CSS styling to all the text
     void styleText();
+    // Applies CSS styling to all the buttons
     void styleButtons();
 
-    // Populates the select boxes with info about the serial ports
+    // Populates the baud rate select box with info about the serial ports
     void populateBaud();
+    // Populates the port select box with a list of all of the available serial ports
     void populatePort();
 
     // Fetches current info about the serial ports

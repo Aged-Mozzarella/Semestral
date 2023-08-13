@@ -28,15 +28,21 @@ private:
     Credentials_t cred;
     bool confirm = false;
 
-    // Applies the CSS styling to all the text
+    // Applies CSS styling to all the text
     void styleText();
+    // Applies CSS styling to all the buttons
     void styleButtons();
+    // Applies CSS styling to all the input areas
     void styleInputs();
 
+    // Sets appropriate sizes for the input areas
     void restrictInputs();
+    // Checks if the input areas only contain ASCII characters
     bool checkInputs();
+    // Parses the contents of the input areas into the member variables
     void parseInputs();
 
+    // Sends the begin config command to serial
     void beginConfig();
 
     // Assumes arr is big enough to accept the contents of the input array

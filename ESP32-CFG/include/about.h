@@ -19,7 +19,9 @@ public:
 private:
     Ui::About *ui;
 
+    // Styles the text inside QLabels
     void styleText();
+    // Sets up the legalLinkLabel QLabel as a hyperlink
     void addHrefs();
 
 };

@@ -109,6 +109,8 @@ public:
 
         portSelect = new QComboBox(FormArea);
         portSelect->setObjectName("portSelect");
+        portSelect->setCursor(QCursor(Qt::PointingHandCursor));
+        portSelect->setMouseTracking(true);
 
         formVerticalLayout->addWidget(portSelect);
 
@@ -127,6 +129,8 @@ public:
 
         formRefreshButton = new QToolButton(FormRefresh);
         formRefreshButton->setObjectName("formRefreshButton");
+        formRefreshButton->setCursor(QCursor(Qt::PointingHandCursor));
+        formRefreshButton->setMouseTracking(true);
 
         refreshHorizontalLayout->addWidget(formRefreshButton);
 
@@ -142,6 +146,8 @@ public:
 
         baudSelect = new QComboBox(FormArea);
         baudSelect->setObjectName("baudSelect");
+        baudSelect->setCursor(QCursor(Qt::PointingHandCursor));
+        baudSelect->setMouseTracking(true);
 
         formVerticalLayout->addWidget(baudSelect);
 
@@ -271,6 +277,8 @@ public:
 
         connectButton = new QToolButton(ButtonArea);
         connectButton->setObjectName("connectButton");
+        connectButton->setCursor(QCursor(Qt::PointingHandCursor));
+        connectButton->setMouseTracking(true);
         connectButton->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
 
         buttonLayout->addWidget(connectButton);
