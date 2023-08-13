@@ -21,6 +21,7 @@ MainWindow::MainWindow(QWidget *parent)
     pMainWindow = this;
     ui->setupUi(this);
     ui->disconnectButton->hide();
+    this->setWindowTitle("ESP32-CFG");
     SerialPort::init();
     defineColors();
     importCustomFonts();

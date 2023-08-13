@@ -2,6 +2,7 @@
 #define ABOUT_H
 
 #include <QWidget>
+#include <QDesktopServices>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class About; }
@@ -19,6 +20,7 @@ private:
     Ui::About *ui;
 
     void styleText();
+    void addHrefs();
 
 };
 

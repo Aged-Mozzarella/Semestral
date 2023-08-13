@@ -1,4 +1,4 @@
-# Install script for directory: C:/dev/Semestral/Semestral/ESP32-CFG
+# Install script for directory: C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/dev/Semestral/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/ESP32-CFG.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/ESP32-CFG.exe")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ESP32-CFG.exe" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ESP32-CFG.exe")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/dev/Semestral/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

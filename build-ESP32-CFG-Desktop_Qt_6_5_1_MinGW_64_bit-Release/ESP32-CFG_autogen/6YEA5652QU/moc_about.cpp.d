@@ -1,5 +1,5 @@
-C:/dev/Semestral/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/ESP32-CFG_autogen/6YEA5652QU/moc_about.cpp: C:/dev/Semestral/Semestral/ESP32-CFG/include/about.h \
-  C:/dev/Semestral/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/ESP32-CFG_autogen/moc_predefs.h \
+C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/ESP32-CFG_autogen/6YEA5652QU/moc_about.cpp: C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/about.h \
+  C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/ESP32-CFG_autogen/moc_predefs.h \
   C:/dev/Qt/6.5.1/mingw_64/include/QtCore/q20memory.h \
   C:/dev/Qt/6.5.1/mingw_64/include/QtCore/q20type_traits.h \
   C:/dev/Qt/6.5.1/mingw_64/include/QtCore/qalgorithms.h \
@@ -107,11 +107,13 @@ C:/dev/Semestral/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release
   C:/dev/Qt/6.5.1/mingw_64/include/QtCore/qvarlengtharray.h \
   C:/dev/Qt/6.5.1/mingw_64/include/QtCore/qversiontagging.h \
   C:/dev/Qt/6.5.1/mingw_64/include/QtCore/qxptype_traits.h \
+  C:/dev/Qt/6.5.1/mingw_64/include/QtGui/QDesktopServices \
   C:/dev/Qt/6.5.1/mingw_64/include/QtGui/qaction.h \
   C:/dev/Qt/6.5.1/mingw_64/include/QtGui/qbitmap.h \
   C:/dev/Qt/6.5.1/mingw_64/include/QtGui/qbrush.h \
   C:/dev/Qt/6.5.1/mingw_64/include/QtGui/qcolor.h \
   C:/dev/Qt/6.5.1/mingw_64/include/QtGui/qcursor.h \
+  C:/dev/Qt/6.5.1/mingw_64/include/QtGui/qdesktopservices.h \
   C:/dev/Qt/6.5.1/mingw_64/include/QtGui/qfont.h \
   C:/dev/Qt/6.5.1/mingw_64/include/QtGui/qfontinfo.h \
   C:/dev/Qt/6.5.1/mingw_64/include/QtGui/qfontmetrics.h \

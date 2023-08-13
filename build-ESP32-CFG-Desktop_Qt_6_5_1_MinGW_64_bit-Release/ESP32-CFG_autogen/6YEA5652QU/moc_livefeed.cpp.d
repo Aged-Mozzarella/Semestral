@@ -1,5 +1,8 @@
-C:/dev/Semestral/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/ESP32-CFG_autogen/6YEA5652QU/moc_livefeed.cpp: C:/dev/Semestral/Semestral/ESP32-CFG/include/livefeed.h \
-  C:/dev/Semestral/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/ESP32-CFG_autogen/moc_predefs.h \
+C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/ESP32-CFG_autogen/6YEA5652QU/moc_livefeed.cpp: C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/livefeed.h \
+  C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/ESP32-CFG_autogen/moc_predefs.h \
+  C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/recordsizes.h \
+  C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/structs.h \
+  C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/weeklyweatherentry.h \
   C:/dev/Qt/6.5.1/mingw_64/include/QtCore/QFile \
   C:/dev/Qt/6.5.1/mingw_64/include/QtCore/QString \
   C:/dev/Qt/6.5.1/mingw_64/include/QtCore/q20memory.h \
@@ -389,7 +392,4 @@ C:/dev/Semestral/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release
   C:/dev/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/dev/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/dev/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/dev/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
-  C:/dev/Semestral/Semestral/ESP32-CFG/include/recordsizes.h \
-  C:/dev/Semestral/Semestral/ESP32-CFG/include/structs.h \
-  C:/dev/Semestral/Semestral/ESP32-CFG/include/weeklyweatherentry.h
+  C:/dev/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h

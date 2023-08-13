@@ -66,7 +66,7 @@
       </size>
      </property>
      <property name="text">
-      <string>A brief overview of the app</string>
+      <string>A brief overview of the project</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
@@ -81,7 +81,7 @@
      <property name="frameShadow">
       <enum>QFrame::Raised</enum>
      </property>
-     <layout class="QHBoxLayout" name="horizontalLayout">
+     <layout class="QVBoxLayout" name="verticalLayout">
       <property name="spacing">
        <number>12</number>
       </property>
@@ -100,12 +100,96 @@
       <item>
        <widget class="QLabel" name="aboutProjectLabel">
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The application &lt;span style=&quot; font-weight:700;&quot;&gt;ESP32-CFG&lt;/span&gt; serves as a simple configuration tool for the ESP32-DIS device – a system that neatly displays an array of data fetched from a REST API (such as the weather forecast, stoptimes for two bus lines of choice etc.) on an E-Paper display. Furthermore, it allows you to remotely control your desk light via a smart TP-Link power socket. &lt;/p&gt;&lt;p&gt;The initial version of ESP32-DIS featured an impractically rigid system of a series of hardcoded string literals containing the URLs and Wi-Fi login credentials which ensured the proper functionality of the device. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The ESP32-DIS system fetches an array of data via a REST API (weather forecast, stop times for two bus lines of choice, etc.) and displays it on an E-Paper display. It also lets the user remotely control a TP-Link power socket for extra convenience. &lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The initial version of ESP32-DIS (submitted as a semestral project for the course B2B99EKP) had a lot of room for improvement in its final design. Firstly, to ensure the correct functionality, this version of ESP32-DIS used a system of hardcoded string literals containing the URLs and Wi-Fi login credentials, significantly hindering the device's practical use. And, if, due to the rigid nature of the design, the device failed to connect to the internet, no alert would appear on the screen to notify the user.&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;This semestral project aims to address the issues highlighted earlier by providing a simple configuration tool for the user and polishing up the device's final design (on-screen alert when the device fails to connect to the internet, revamped inner workings, etc.). As a bonus, the application provides a live feed of the on-screen data.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="wordWrap">
          <bool>true</bool>
         </property>
        </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QFrame" name="legalFrame">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="legalLabel">
+        <property name="text">
+         <string>Due to legal reasons, I am required to attribute the authors of the icons used in this application, link </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="legalLink">
+        <property name="text">
+         <string>here [15 hyperlinks].</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="legalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
       </item>
      </layout>
     </widget>

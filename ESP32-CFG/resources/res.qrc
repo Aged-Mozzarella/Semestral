@@ -48,5 +48,6 @@
         <file>styles/connect/alert.qss</file>
         <file>icons/buttons/disconnect.png</file>
         <file>styles/configure/input.qss</file>
+        <file>styles/about/link.qss</file>
     </qresource>
 </RCC>

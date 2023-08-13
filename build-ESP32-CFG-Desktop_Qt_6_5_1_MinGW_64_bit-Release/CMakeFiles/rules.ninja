@@ -52,7 +52,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\dev\Qt\Tools\CMake_64\bin\cmake.exe --regenerate-during-build -SC:\dev\Semestral\Semestral\ESP32-CFG -BC:\dev\Semestral\Semestral\build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release
+  command = C:\dev\Qt\Tools\CMake_64\bin\cmake.exe --regenerate-during-build -SC:\Users\adamh\OneDrive\_FEL\EK-SEM2\PPC\Semestral\ESP32-CFG -BC:\Users\adamh\OneDrive\_FEL\EK-SEM2\PPC\Semestral\build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release
   description = Re-running CMake...
   generator = 1
 

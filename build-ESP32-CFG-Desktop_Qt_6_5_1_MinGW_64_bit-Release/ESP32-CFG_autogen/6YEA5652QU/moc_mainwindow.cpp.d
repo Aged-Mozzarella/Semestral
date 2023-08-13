@@ -1,5 +1,13 @@
-C:/dev/Semestral/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/ESP32-CFG_autogen/6YEA5652QU/moc_mainwindow.cpp: C:/dev/Semestral/Semestral/ESP32-CFG/include/mainwindow.h \
-  C:/dev/Semestral/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/ESP32-CFG_autogen/moc_predefs.h \
+C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/ESP32-CFG_autogen/6YEA5652QU/moc_mainwindow.cpp: C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/mainwindow.h \
+  C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/ESP32-CFG_autogen/moc_predefs.h \
+  C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/about.h \
+  C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/configure.h \
+  C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/connect.h \
+  C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/livefeed.h \
+  C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/recordsizes.h \
+  C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/structs.h \
+  C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/styleloader.h \
+  C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/weeklyweatherentry.h \
   C:/dev/Qt/6.5.1/mingw_64/include/QtCore/QDeadlineTimer \
   C:/dev/Qt/6.5.1/mingw_64/include/QtCore/QDebug \
   C:/dev/Qt/6.5.1/mingw_64/include/QtCore/QEvent \
@@ -263,6 +271,7 @@ C:/dev/Semestral/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release
   C:/dev/Qt/6.5.1/mingw_64/include/QtCore/qxmlstream.h \
   C:/dev/Qt/6.5.1/mingw_64/include/QtCore/qxpfunctional.h \
   C:/dev/Qt/6.5.1/mingw_64/include/QtCore/qxptype_traits.h \
+  C:/dev/Qt/6.5.1/mingw_64/include/QtGui/QDesktopServices \
   C:/dev/Qt/6.5.1/mingw_64/include/QtGui/QFont \
   C:/dev/Qt/6.5.1/mingw_64/include/QtGui/QPaintDevice \
   C:/dev/Qt/6.5.1/mingw_64/include/QtGui/QPaintDeviceWindow \
@@ -861,12 +870,4 @@ C:/dev/Semestral/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release
   C:/dev/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wnnc.h \
   C:/dev/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wow64apiset.h \
   C:/dev/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wtypes.h \
-  C:/dev/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wtypesbase.h \
-  C:/dev/Semestral/Semestral/ESP32-CFG/include/about.h \
-  C:/dev/Semestral/Semestral/ESP32-CFG/include/configure.h \
-  C:/dev/Semestral/Semestral/ESP32-CFG/include/connect.h \
-  C:/dev/Semestral/Semestral/ESP32-CFG/include/livefeed.h \
-  C:/dev/Semestral/Semestral/ESP32-CFG/include/recordsizes.h \
-  C:/dev/Semestral/Semestral/ESP32-CFG/include/structs.h \
-  C:/dev/Semestral/Semestral/ESP32-CFG/include/styleloader.h \
-  C:/dev/Semestral/Semestral/ESP32-CFG/include/weeklyweatherentry.h
+  C:/dev/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wtypesbase.h

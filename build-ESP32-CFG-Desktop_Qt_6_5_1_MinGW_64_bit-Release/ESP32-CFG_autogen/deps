@@ -1,4 +1,43 @@
 ESP32-CFG_autogen/timestamp: \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/CMakeLists.txt \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/about.h \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/colordefinitions.h \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/configure.h \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/connect.h \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/fontsizes.h \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/fontweights.h \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/iconpainter.h \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/livefeed.h \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/mainwindow.h \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/recordsizes.h \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/serialcommands.h \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/serialdefault.h \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/serialport.h \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/settings.h \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/stringparser.h \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/structs.h \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/styleloader.h \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/weathericon.h \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/include/weeklyweatherentry.h \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/resources/res.qrc \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/src/about.cpp \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/src/colordefinitions.cpp \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/src/configure.cpp \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/src/connect.cpp \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/src/iconpainter.cpp \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/src/livefeed.cpp \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/src/main.cpp \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/src/mainwindow.cpp \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/src/serialport.cpp \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/src/stringparser.cpp \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/src/styleloader.cpp \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/src/weathericon.cpp \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/src/weeklyweatherentry.cpp \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/.qtc/package-manager/auto-setup.cmake \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/CMakeFiles/3.24.2/CMakeRCCompiler.cmake \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/CMakeFiles/3.24.2/CMakeSystem.cmake \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/ESP32-CFG_autogen/moc_predefs.h \
 	C:/dev/Qt/6.5.1/mingw_64/include/QtCore/QDeadlineTimer \
 	C:/dev/Qt/6.5.1/mingw_64/include/QtCore/QDebug \
 	C:/dev/Qt/6.5.1/mingw_64/include/QtCore/QEvent \
@@ -263,6 +302,7 @@ ESP32-CFG_autogen/timestamp: \
 	C:/dev/Qt/6.5.1/mingw_64/include/QtCore/qxmlstream.h \
 	C:/dev/Qt/6.5.1/mingw_64/include/QtCore/qxpfunctional.h \
 	C:/dev/Qt/6.5.1/mingw_64/include/QtCore/qxptype_traits.h \
+	C:/dev/Qt/6.5.1/mingw_64/include/QtGui/QDesktopServices \
 	C:/dev/Qt/6.5.1/mingw_64/include/QtGui/QFont \
 	C:/dev/Qt/6.5.1/mingw_64/include/QtGui/QPaintDevice \
 	C:/dev/Qt/6.5.1/mingw_64/include/QtGui/QPaintDeviceWindow \
@@ -554,80 +594,23 @@ ESP32-CFG_autogen/timestamp: \
 	C:/dev/Qt/6.5.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersionImpl.cmake \
 	C:/dev/Qt/6.5.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake \
 	C:/dev/Qt/6.5.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessTargets.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineRCCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeFindDependencyMacro.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeNinjaFindMake.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeRCCompiler.cmake.in \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeRCInformation.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeSystem.cmake.in \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeTestRCCompiler.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CheckCXXCompilerFlag.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CheckCXXSourceCompiles.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CheckIncludeFileCXX.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CheckLibraryExists.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/GNU-FindBinUtils.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/GNU.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/FindPackageMessage.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/FindThreads.cmake \
@@ -636,8 +619,6 @@ ESP32-CFG_autogen/timestamp: \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Internal/CheckCompilerFlag.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Internal/CheckFlagCommonConfig.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake \
-	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-Determine-CXX.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake \
 	C:/dev/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake \
@@ -1097,48 +1078,9 @@ ESP32-CFG_autogen/timestamp: \
 	C:/dev/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wow64apiset.h \
 	C:/dev/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wtypes.h \
 	C:/dev/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wtypesbase.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/CMakeLists.txt \
-	C:/dev/Semestral/Semestral/ESP32-CFG/include/about.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/include/colordefinitions.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/include/configure.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/include/connect.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/include/fontsizes.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/include/fontweights.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/include/iconpainter.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/include/livefeed.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/include/mainwindow.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/include/recordsizes.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/include/serialcommands.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/include/serialdefault.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/include/serialport.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/include/settings.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/include/stringparser.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/include/structs.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/include/styleloader.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/include/weathericon.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/include/weeklyweatherentry.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/resources/res.qrc \
-	C:/dev/Semestral/Semestral/ESP32-CFG/src/about.cpp \
-	C:/dev/Semestral/Semestral/ESP32-CFG/src/colordefinitions.cpp \
-	C:/dev/Semestral/Semestral/ESP32-CFG/src/configure.cpp \
-	C:/dev/Semestral/Semestral/ESP32-CFG/src/connect.cpp \
-	C:/dev/Semestral/Semestral/ESP32-CFG/src/iconpainter.cpp \
-	C:/dev/Semestral/Semestral/ESP32-CFG/src/livefeed.cpp \
-	C:/dev/Semestral/Semestral/ESP32-CFG/src/main.cpp \
-	C:/dev/Semestral/Semestral/ESP32-CFG/src/mainwindow.cpp \
-	C:/dev/Semestral/Semestral/ESP32-CFG/src/serialport.cpp \
-	C:/dev/Semestral/Semestral/ESP32-CFG/src/stringparser.cpp \
-	C:/dev/Semestral/Semestral/ESP32-CFG/src/styleloader.cpp \
-	C:/dev/Semestral/Semestral/ESP32-CFG/src/weathericon.cpp \
-	C:/dev/Semestral/Semestral/ESP32-CFG/src/weeklyweatherentry.cpp \
-	C:/dev/Semestral/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/.qtc/package-manager/auto-setup.cmake \
-	C:/dev/Semestral/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake \
-	C:/dev/Semestral/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/CMakeFiles/3.24.2/CMakeRCCompiler.cmake \
-	C:/dev/Semestral/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/CMakeFiles/3.24.2/CMakeSystem.cmake \
-	C:/dev/Semestral/Semestral/build-ESP32-CFG-Desktop_Qt_6_5_1_MinGW_64_bit-Release/ESP32-CFG_autogen/moc_predefs.h \
-	C:/dev/Semestral/Semestral/ESP32-CFG/resources/ui/about.ui \
-	C:/dev/Semestral/Semestral/ESP32-CFG/resources/ui/configure.ui \
-	C:/dev/Semestral/Semestral/ESP32-CFG/resources/ui/connect.ui \
-	C:/dev/Semestral/Semestral/ESP32-CFG/resources/ui/livefeed.ui \
-	C:/dev/Semestral/Semestral/ESP32-CFG/resources/ui/mainwindow.ui \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/resources/ui/about.ui \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/resources/ui/configure.ui \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/resources/ui/connect.ui \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/resources/ui/livefeed.ui \
+	C:/Users/adamh/OneDrive/_FEL/EK-SEM2/PPC/Semestral/ESP32-CFG/resources/ui/mainwindow.ui \
 	C:/dev/Qt/Tools/CMake_64/bin/cmake.exe
